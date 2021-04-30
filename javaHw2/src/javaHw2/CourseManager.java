@@ -8,4 +8,12 @@ public class CourseManager {
 		System.out.println(course.getHeader()+ "dan Kaydınız Silindi.");
 	}
 	
+	public void printAll (Courses course ) {
+		System.out.println(course.getImageLink());
+		System.out.println(course.getHeader());
+		System.out.println(course.getContent());
+		System.out.println(course.getPrice());
+		
+	}
+	
 }

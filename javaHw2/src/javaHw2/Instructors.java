@@ -24,7 +24,7 @@ public class Instructors {
 	public void setId(int id) {
 		this.id=id;
 	}
-	public String setProfilePhotoLink() {
+	public String getProfilePhotoLink() {
 		return profilePhotoLink;
 	}
 	public void setProfilePhotoLink(String profilePhotoLink) {
