@@ -41,7 +41,9 @@ public class Main {
 		
 		System.out.println("---------------------------");
 		
+		User[] users = {student1,student2,instructor1,instructor2};
 		
+		userManager.addUserMultiple(users);
 	
 	}
 	
