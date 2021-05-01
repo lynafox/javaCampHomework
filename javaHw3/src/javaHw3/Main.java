@@ -10,7 +10,7 @@ public class Main {
 		student1.setCourses("Java");
 		student1.setStudentNumber(123456);
 		
-		//Student student2 = new Student(2,"Gülcan","Ağhan","C#",13245);
+		Student student2 = new Student(2,"Gülcan","Ağhan","C#",13245);
 		
 		Instructor instructor1 = new Instructor();
 		instructor1.setId(3);
@@ -19,7 +19,7 @@ public class Main {
 		instructor1.setCourses("C#,Java");
 		instructor1.setSalary(10000);
 		
-		//Instructor instructor2 = new Instructor(4,"Gizem","Ağhan","Programlamaya Giriş",7000);
+		Instructor instructor2 = new Instructor(4,"Gizem","Ağhan","Programlamaya Giriş",7000);
 		
 		
 		UserManager userManager = new UserManager();

@@ -1,7 +1,10 @@
 package javaHw3;
 
 public class Instructor extends User {
-	public Instructor(double salary) {
+	private double salary;
+	
+	public Instructor(int id, String name, String surname, String courses,double salary) {
+		super(id,name,surname,courses);
 		this.salary = salary;
 	}
 
@@ -9,7 +12,6 @@ public class Instructor extends User {
 
 	}
 
-	private double salary;
 	public double getSalary () {
 		return salary;
 	}

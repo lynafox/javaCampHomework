@@ -1,7 +1,9 @@
 package javaHw3;
 
 public class Student extends User{
-	public Student (int studentNumber) {
+	
+	public Student (int id, String name, String surname, String courses,int studentNumber) {
+		super(id,name,surname,courses);
 		this.studentNumber= studentNumber;
 	}
 	public Student () {
