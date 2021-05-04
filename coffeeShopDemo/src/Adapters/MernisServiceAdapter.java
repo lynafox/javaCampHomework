@@ -13,10 +13,10 @@ public class MernisServiceAdapter implements CustomerCheckService {
 		KPSPublicSoapProxy client = new KPSPublicSoapProxy();
 		boolean result = true;
 		try {
-			result = client.TCKimlikNoDogrula(customer.getNationalityId(), customer.getFirstName().toUpperCase(new Locale("tr")),
+			result = client.TCKimlikNoDogrula(customer.getNationalityId(),
+					customer.getFirstName().toUpperCase(new Locale("tr")),
 					customer.getLastName().toUpperCase(new Locale("tr")), customer.getYearOfBirth());
 		} catch (RemoteException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		return result;
